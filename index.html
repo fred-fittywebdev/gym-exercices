@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application d'Exercices avec Recherche</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Application d'Exercices</h1>
+        <div class="controls">
+            <button id="fetchExercises">Récupérer les exercices</button>
+            <input type="text" id="searchInput" placeholder="Rechercher un exercice">
+            <select id="bodyPartSelect">
+                <option value="chest">Chest</option>
+                <option value="back">Back</option>
+                <option value="cardio">Cardio</option>
+                <option value="lower arms">Avant-bras</option>
+                <option value="lower legs">Mollet</option>
+                <option value="neck">cou</option>
+                <option value="shoulders">Epaules</option>
+                <option value="upper arms">Haut du bras</option>
+                <option value="upper legs">Quadriceps</option>
+                <option value="waist">Abs</option>
+                <!-- Ajoute d'autres options si nécessaire -->
+            </select>
+        </div>
+        <div id="exerciseList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button, input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    flex-grow: 1;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+}
+
+#exerciseList {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.exercise-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+}
+
+.exercise-item:last-child {
+    border-bottom: none;
+}
+
+.exercise-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.exercise-item p {
+    margin: 5px 0;
+    color: #666;
+}a
+
+.exercise-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.exercise-info {
+    flex-grow: 1;
+}
+
+.exercise-gif {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 15px;
+    border-radius: 5px;
+}
