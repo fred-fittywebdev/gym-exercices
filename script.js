@@ -8,7 +8,7 @@ document.getElementById('searchInput').addEventListener('input', searchExercises
 function fetchExercises() {
     const exerciseList = document.getElementById('exerciseList');
     const bodyPart = document.getElementById('bodyPartSelect').value;
-    const url = `${apiUrl}/${bodyPart}?limit=10&offset=0`;
+    const url = `${apiUrl}/${bodyPart}?limit=30&offset=0`;
     exerciseList.innerHTML = '<p>Chargement...</p>';
 
     fetch(url, {
